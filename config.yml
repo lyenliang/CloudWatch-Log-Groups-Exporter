@@ -1,0 +1,12 @@
+aws:
+  aws_access_key_id: '<YOUR_AWS_ACCESS_KEY_ID>'
+  aws_secret_access_key: '<YOUR_AWS_SECRET_ACCESS_KEY>'
+  region_name: '<YOUR_REGION>'
+
+cloudwatch_log_export:
+  destination_bucket: '<YOUR_S3_BUCKET_TO_STORE_DATA>'
+  log_groups: 
+    - '/log/group1'
+    - '/log/group2'
+  from_time: '2020/03/02 00:00:00 UTC'
+  to_time: '2021/3/12 00:00:00 UTC'
